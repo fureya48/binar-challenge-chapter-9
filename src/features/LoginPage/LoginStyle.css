@@ -1,0 +1,51 @@
+.LoginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.LoginPage .cover {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 40rem;
+  background-color: white;
+  border-radius: 8px;
+  padding: 0px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.226);
+}
+
+.LoginPage .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 0px;
+  width: 60%;
+  height: 100%;
+  border-radius: 8px 0px 0px 8px;
+  background-image: url("../../assets/login.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.LoginPage .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  margin: 0px;
+  margin-left: 0px;
+  width: 40%;
+  height: 100%;
+  gap: 8px;
+}
+
+.LoginPage form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}

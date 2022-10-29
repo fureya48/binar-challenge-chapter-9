@@ -1,0 +1,70 @@
+.App {
+  height: 100vh;
+  background-color: rgb(255, 215, 145);
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+}
+
+.Game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.Player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Player .Pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.Player button {
+  border: none;
+  background: none;
+}
+
+.COM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.COM .Pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 422px;
+}
+
+.COM Button {
+  cursor: pointer;
+}
+
+.Result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
